@@ -1,9 +1,10 @@
-# Accessing AusCover Data on the NCI and RDS
+# Accessing AusCover Data on the NCI and RDS <br>
 
-
-<img src='http://portal.tern.org.au/assets/core/img/logos/logo-auscover.png'>
-<img src='https://www.wpcentral.com.au/wp-content/uploads/2013/08/nci-logo1.png'>
-
+<center><table>
+<tr><td><img src='http://portal.tern.org.au/assets/core/img/logos/logo-auscover.png' width="200"></td>
+<td><img src='https://www.wpcentral.com.au/wp-content/uploads/2013/08/nci-logo1.png' width="200"></td>
+<td><img src='http://nci.org.au/wp-content/uploads/2015/05/Official-RDS-Logo-RGB.png' width="200"></td></tr>
+</table></center>
 
 #### A Technical Capacity Building Webinar for AEOCCG
 
