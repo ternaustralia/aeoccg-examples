@@ -37,7 +37,7 @@ Data downloading and analysis by many users has potential risks _(apart from the
 ### NCI and RDS AusCover Services
 
 NCI have a multi-element system for metadata catalogues and data services
- - [GeoNetwork](http://geonetwork.nci.org.au/geonetwork): Find metadata records (akin to CSIRO DAP)
+ - [GeoNetwork](http://geonetwork.nci.org.au): Find metadata records (akin to CSIRO DAP)
  - [THREDDS](http://dap.nci.org.au) Data Service: download or remotely access or view data
    - OPeNDAP is one of the protocols served, permits subsetting and remote access to files
    - Other protocols include HTTP download and Open Geospatial Consortium Web Services to stream JPEG, TIFF etc.
@@ -63,7 +63,7 @@ Finally we'll check out a pretty cool notebook that uses the NCI THREDDS Data Se
 
 ### Additional NCI Resources
 
-We won't have time to look at how you query and explore the THREDDS catalog to [access data](https://github.com/nci/Notebooks/blob/master/Data_Access/Using_Thredds/THREDDS_DataAccess.ipynb) or find [WMS and WCS service endpoints](https://github.com/nci/Notebooks/blob/master/Data_Access/Using_Thredds/THREDDS_WMS_WCS.ipynb) so I'd strongly encourage you to follow these links if you want to find out more.
+We won't have much time to look at how you query and explore the THREDDS catalog to [access data](https://github.com/nci/Notebooks/blob/master/Data_Access/Using_Thredds/THREDDS_DataAccess.ipynb) or find [WMS and WCS service endpoints](https://github.com/nci/Notebooks/blob/master/Data_Access/Using_Thredds/THREDDS_WMS_WCS.ipynb) so I'd strongly encourage you to follow these links if you want to find out more.
 
 Similarly, **accessing many of these data sets is easy using your desktop GIS package**. This will be the topic of another AusCover session later in the year, but for now have a look at the [NCI QGIS examples](https://github.com/nci/Notebooks/tree/master/QGIS_Examples).
 
