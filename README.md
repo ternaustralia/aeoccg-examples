@@ -1,4 +1,4 @@
-# Accessing AusCover Data on the NCI and RDS <br>
+# Accessing TERN AusCover Data on the NCI and RDS <br>
 
 <center><table>
 <tr><td><a href='http://www.tern.org.au'><img src='http://tern.org.au/rs/7/sites/998/custom_files/tpl_images/logo.jpg'></a></td>
