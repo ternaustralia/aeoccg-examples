@@ -1,23 +1,24 @@
 # Accessing AusCover Data on the NCI and RDS <br>
 
 <center><table>
-<tr><td><img src='http://portal.tern.org.au/assets/core/img/logos/logo-auscover.png' width="200"></td>
-<td><img src='https://www.wpcentral.com.au/wp-content/uploads/2013/08/nci-logo1.png' width="200"></td>
+<tr><td><a href='http://www.tern.org.au'><img src='http://tern.org.au/rs/7/sites/998/custom_files/tpl_images/logo.jpg'></a></td>
+<tr><td><a href='http://www.auscover.org.au'><img src='http://qld.auscover.org.au/image/logo.png'></a></td>
+<td><a href='http://www.nci.org.au'><img src='https://www.wpcentral.com.au/wp-content/uploads/2013/08/nci-logo1.png' width="200"></a></td>
 <td><img src='http://nci.org.au/wp-content/uploads/2015/05/Official-RDS-Logo-RGB.png' width="200"></td></tr>
 </table></center>
 
 #### A Technical Capacity Building Webinar for AEOCCG
 
-_Presented by [Peter Scarth](mailto:p.scarth@uq.edu.au?subject=AEOCCG%20webinar%20information) (Joint Remote Sensing Research Program) with lots of help and input from Kelsey  Druken and Claire Trenham from the [NCI](http://nci.org.au/about-nci/contact/nci-staff-2/)._
+_Presented by [Peter Scarth](mailto:p.scarth@uq.edu.au?subject=AEOCCG%20webinar%20information) (Joint Remote Sensing Research Program) with lots of help and input from Kelsey Druken and Claire Trenham from the [NCI](http://nci.org.au/about-nci/contact/nci-staff-2/)._
 
 ### Abstract
 
-Have you ever wondered how to access some of the AusCover remotely sensed data which is available on the NCI using some of the available web services directly within your analysis environment?
+Have you ever wondered how to access some of the TERN AusCover remotely sensed data which is available on the NCI using some of the available web services directly within your analysis environment?
 
 This webinar will give several examples using direct access using opendap on thredds and gdal/rasterio on thredds and http where you'll be able to query and directly interact with Landsat, MODIS and Himawari datasets in both  iPython notebooks and in GIS packages. By the end of the webinar, you’ll be able to discover some of the many data sets openly available  on the NCI and query them using web services.
 
-#### Background on RDS <> AusCover <> NCI <> AGDC?
- - [AusCover](http://auscover.org.au) - provides a national expert network and a data delivery service for provision of Australian biophysical remote sensing data time-series, continental-scale map products, and selected high-resolution datasets over TERN sites. **It is a virtual network for earth observation data sets across Australia that are typically produced by universities, state government agencies _(e.g. NSW OEH and Qld DSITI)_, and federal  agencies _(e.g. GA, BOM and CSIRO)_ ).**
+#### Background on RDS <> TERN AusCover <> NCI <> AGDC?
+ - [TERN AusCover](http://auscover.org.au) - provides a national expert network and a data delivery service for provision of Australian biophysical remote sensing data time-series, continental-scale map products, and selected high-resolution datasets over TERN sites. **It is a virtual network for earth observation data sets across Australia that are typically produced by universities, state government agencies _(e.g. NSW OEH and Qld DSITI)_, and federal  agencies _(e.g. GA, BOM and CSIRO)_ ).**
  - [Research Data Storage Infrastructure (RDSI)](https://www.rds.edu.au) - supports collaborative access to research data assets of national significance (including national reference collections) through distributed data centre development. **They provide the online storage capacity to host Australian EO data sets online.**
  - [National Computational Infrastructure (NCI)](http://nci.org.au/) -  is Australia’s national research computing facility including the Southern Hemisphere’s most highly-integrated supercomputer and filesystems, Australia’s highest performance research cloud, and one of the nation’s largest data catalogues. **They provide the compute capacity for some of the Auscover data sets, interactive environments, and cataloging and training services.** 
  - [Australian Geoscience Data Cube (AGDC)](http://www.datacube.org.au/) - provides an integrated gridded data analysis environment for earth observation satellite and related data from multiple satellite and other acquisition systems. **This project facilitates the operational processing and interactive  analysis of national EO data sets and is used to produce the Landsat and MODIS collections on the NCI.**
@@ -34,7 +35,7 @@ Data downloading and analysis by many users has potential risks _(apart from the
  -  Desktops: 32GB RAM, 140GB local scratch, 8vCPUs
  - [How can I get VDI access?](http://nci.org.au/access/getting-access-to-the-national-facility/allocation-schemes/ )
 
-### NCI and RDS AusCover Services
+### NCI and RDS TERN AusCover Services
 
 NCI have a multi-element system for metadata catalogues and data services
  - [GeoNetwork](http://geonetwork.nci.org.au): Find metadata records (akin to CSIRO DAP)
@@ -44,7 +45,7 @@ NCI have a multi-element system for metadata catalogues and data services
  - Geoserver, ERDDAP, Hyrax, others… and filesystem
  - PROMS (provenance), DOI minting (citation)
 
-[AusCover](http://qld.auscover.org.au/public/html/index.html) also uses [THREDDS](http://qld.auscover.org.au/thredds/catalog.html),  [Geoserver](http://qld.auscover.org.au/geoserver/web/), [FTP](ftp://qld.auscover.org.au/) and [HTTP](http://qld.auscover.org.au/public/data/) services to deliver data in a variety of formats, and is working to refine online discovery,  subsetting and reformatting tools for both raster and vector data. Keep an eye out for the new website launching soon.
+[TERN AusCover](http://qld.auscover.org.au/public/html/index.html) also uses [THREDDS](http://qld.auscover.org.au/thredds/catalog.html),  [Geoserver](http://qld.auscover.org.au/geoserver/web/), [FTP](ftp://qld.auscover.org.au/) and [HTTP](http://qld.auscover.org.au/public/data/) services to deliver data in a variety of formats, and is working to refine online discovery,  subsetting and reformatting tools for both raster and vector data. Keep an eye out for the new website launching soon.
 
 
 ## Presentation Outline
@@ -65,7 +66,7 @@ Finally we'll check out a pretty cool notebook that uses the NCI THREDDS Data Se
 
 We won't have much time to look at how you query and explore the THREDDS catalog to [access data](https://github.com/nci/Notebooks/blob/master/Data_Access/Using_Thredds/THREDDS_DataAccess.ipynb) or find [WMS and WCS service endpoints](https://github.com/nci/Notebooks/blob/master/Data_Access/Using_Thredds/THREDDS_WMS_WCS.ipynb) so I'd strongly encourage you to follow these links if you want to find out more.
 
-Similarly, **accessing many of these data sets is easy using your desktop GIS package**. This will be the topic of another AusCover session later in the year, but for now have a look at the [NCI QGIS examples](https://github.com/nci/Notebooks/tree/master/QGIS_Examples).
+Similarly, **accessing many of these data sets is easy using your desktop GIS package**. This will be the topic of another TERN AusCover session later in the year, but for now have a look at the [NCI QGIS examples](https://github.com/nci/Notebooks/tree/master/QGIS_Examples).
 
 
 This all looks a little more tricky than firing up your desktop remote sensing package, but you do get a highly flexible open source analysis environment that give you the ability to perform reproducible research, and operationalise your algorithms nationally with ease.
