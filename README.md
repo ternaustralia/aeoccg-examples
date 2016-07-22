@@ -2,7 +2,7 @@
 
 <center><table>
 <tr><td><a href='http://www.tern.org.au'><img src='http://tern.org.au/rs/7/sites/998/custom_files/tpl_images/logo.jpg'></a></td>
-<td><a href='http://www.auscover.org.au'><img src='http://qld.auscover.org.au/image/logo.png' height="135"></a></td>
+<td><a href='http://www.auscover.org.au'><img src='http://qld.auscover.org.au/image/logo.png' height="120"></a></td>
 <td><a href='http://www.nci.org.au'><img src='https://www.wpcentral.com.au/wp-content/uploads/2013/08/nci-logo1.png' width="200"></a></td>
 <td><img src='http://nci.org.au/wp-content/uploads/2015/05/Official-RDS-Logo-RGB.png' width="200"></td></tr>
 </table></center>
